@@ -40,6 +40,9 @@
     "tsify": "^4.0.0",
     "typescript": "^2.8.3",
     "vinyl-source-stream": "^2.0.0",
-    "watchify": "^3.11.0"
+    "watchify": "^3.11.0",
+    "gulp-live-server": "0.0.31",
+    "browser-sync": "^2.24.4",
+    "babelify": "^8.0.0"
   }
 }

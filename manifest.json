@@ -1,43 +1,43 @@
 {
-    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.3/MicrosoftTeams.schema.json",
-    "manifestVersion": "1.3",
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.5",
     "version": "1.0.0",
-    "id": "00000000-0000-0000-0000-000000000000",
-    "packageName": "com.micurd.mrrobot",
+    "id": "8e9cad76-b3eb-4470-a4e7-44505675f5a1",
+    "packageName": "com.micurd.mr-robot",
     "developer": {
         "name": "Michael Curd",
-        "websiteUrl": "https://www.microsoft.com",
-        "privacyUrl": "https://www.microsoft.com/privacy",
-        "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
+        "websiteUrl": "https://github.com/mac1228/mr-robot",
+        "privacyUrl": "https://github.com/mac1228/mr-robot",
+        "termsOfUseUrl": "https://github.com/mac1228/mr-robot"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
     },
     "name": {
         "short": "Mr. Robot",
-        "full": "Mr. Robot Game for Microsoft Teams"
+        "full": "Social and Fun"
     },
     "description": {
         "short": "A social experiment game for Microsoft Teams",
-        "full": "In this game, you're either red or blue. Blue will do everything in their power to get Mr. Robot to his destination. Red will do what they must in order to stop that."
-    },
-    "icons": {
-        "outline": "mr-robot20x20.png",
-        "color": "mr-robot96x96.png"
+        "full": "In this game, you're either red or blue. Blue will do everything in their power to get Mr. Robot to his destination. Red will do what they must in order to stop that.\n\n<a href=\"https://www.freepik.com/free-photos-vectors/design\">Design vector created by freepik - www.freepik.com</a>"
     },
     "accentColor": "#F08C0A",
-    "staticTabs": [{
-        "entityId": "com.micurd.mrrobot.game",
-        "name": "Game",
-        "contentUrl": "https://mr-robot.azurewebsites.net/game",
-        "scopes": [
-            "personal"
-        ]
-    }],
-    "bots": [{
-        "botId": "00000000-0000-0000-0000-000000000000",
-        "needsChannelSelector": false,
-        "isNotificationOnly": false,
-        "scopes": [
-            "team",
-            "personal"
-        ]
-    }]
+    "staticTabs": [
+        {
+            "entityId": "Everything",
+            "name": "Mr. Robot",
+            "contentUrl": "https://mr-robot.azurewebsites.net/",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "mr-robot.azurewebsites.net"
+    ]
 }
