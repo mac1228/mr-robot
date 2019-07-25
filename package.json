@@ -17,32 +17,31 @@
   },
   "homepage": "https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-nodejs",
   "dependencies": {
+    "@types/react": "^16.3.14",
+    "@types/react-dom": "^16.0.5",
     "botbuilder": "^3.11.0",
     "botbuilder-teams": "^0.2.6",
     "config": "^1.28.1",
-    "faker": "^4.1.0",
-    "pug": "^2.0.0-rc.4",
-    "@types/react": "^16.3.14",
-    "@types/react-dom": "^16.0.5",
     "express": "^4.16.3",
     "react": "^16.4.0",
     "react-dom": "^16.4.0"
   },
   "devDependencies": {
+    "acorn": "^6.0.0",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
+    "babelify": "^8.0.0",
+    "browser-sync": "^2.24.4",
     "browserify": "^16.2.2",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-live-server": "0.0.31",
     "gulp-sass": "^4.0.1",
     "jshint": "^2.9.5",
     "tsify": "^4.0.0",
     "typescript": "^2.8.3",
     "vinyl-source-stream": "^2.0.0",
-    "watchify": "^3.11.0",
-    "gulp-live-server": "0.0.31",
-    "browser-sync": "^2.24.4",
-    "babelify": "^8.0.0"
+    "watchify": "^3.11.0"
   }
 }
