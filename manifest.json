@@ -20,9 +20,9 @@
     },
     "description": {
         "short": "A social experiment game for Microsoft Teams",
-        "full": "In this game, you're either red or blue. Blue will do everything in their power to get Mr. Robot to his destination. Red will do what they must in order to stop that.\n\n<a href=\"https://www.freepik.com/free-photos-vectors/design\">Design vector created by freepik - www.freepik.com</a>"
+        "full": "In this game, you're either red or blue. Blue will do everything in their power to get Mr. Robot to his destination. Red will do what they must in order to stop that.\n\nDesign vector created by freepik - www.freepik.com"
     },
-    "accentColor": "#F08C0A",
+    "accentColor": "#CCCCCC",
     "staticTabs": [
         {
             "entityId": "Everything",
@@ -31,6 +31,16 @@
             "scopes": [
                 "personal"
             ]
+        }
+    ],
+    "bots": [
+        {
+            "botId": "974e26cb-99d9-4dfe-9398-d52226d6cb64",
+            "scopes": [
+                "personal"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false
         }
     ],
     "permissions": [
