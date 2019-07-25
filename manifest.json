@@ -1,0 +1,43 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.3/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.3",
+    "version": "1.0.0",
+    "id": "00000000-0000-0000-0000-000000000000",
+    "packageName": "com.micurd.mrrobot",
+    "developer": {
+        "name": "Michael Curd",
+        "websiteUrl": "https://www.microsoft.com",
+        "privacyUrl": "https://www.microsoft.com/privacy",
+        "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
+    },
+    "name": {
+        "short": "Mr. Robot",
+        "full": "Mr. Robot Game for Microsoft Teams"
+    },
+    "description": {
+        "short": "A social experiment game for Microsoft Teams",
+        "full": "In this game, you're either red or blue. Blue will do everything in their power to get Mr. Robot to his destination. Red will do what they must in order to stop that."
+    },
+    "icons": {
+        "outline": "mr-robot20x20.png",
+        "color": "mr-robot96x96.png"
+    },
+    "accentColor": "#F08C0A",
+    "staticTabs": [{
+        "entityId": "com.micurd.mrrobot.game",
+        "name": "Game",
+        "contentUrl": "https://mr-robot.azurewebsites.net/game",
+        "scopes": [
+            "personal"
+        ]
+    }],
+    "bots": [{
+        "botId": "00000000-0000-0000-0000-000000000000",
+        "needsChannelSelector": false,
+        "isNotificationOnly": false,
+        "scopes": [
+            "team",
+            "personal"
+        ]
+    }]
+}
